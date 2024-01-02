@@ -54,6 +54,10 @@ const Card = styled.div`
         gap: 8px;
         width: 300px;
     }
+    @media only screen and (max-width: 375px){
+    
+        width: 260px;
+    }
 
     &:hover ${Document}{
         display: flex;

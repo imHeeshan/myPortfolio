@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import styled from "styled-components";
+import Projects from "./components/Projects/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -35,12 +36,11 @@ function App() {
           <Wrapper>
             <Experience />
             <Skills />
+            <Projects />
             <Education />
           </Wrapper>
-          <Wrapper>
-          </Wrapper>
+
           <Footer />
-          
         </Body>
       </Router>
     </ThemeProvider>

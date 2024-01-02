@@ -21,6 +21,11 @@ const Container = styled.div`
     @media (max-width: 960px) {
         padding: 0px;
     }
+    @media only screen and (max-width: 375px){
+    
+        width: 260px;
+    }
+
 `;
 
 const Wrapper = styled.div`
@@ -35,6 +40,10 @@ const Wrapper = styled.div`
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
+    }
+    @media only screen and (max-width: 375px){
+    
+        width: 260px;
     }
 `;
 
@@ -69,7 +78,7 @@ const TimelineSection = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    // gap: 12px;
 `;
 
 

@@ -143,6 +143,11 @@ export const TextLoop = styled.div`
     line-height: 48px;
     margin-bottom: 16px;
   }
+  @media (max-width: 525px) {
+    font-size: 15px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
 `;
 
 export const Span = styled.span`
